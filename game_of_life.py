@@ -47,4 +47,4 @@ for i in range(iterations):
     sys.stdout.write(f"Iteration {i + 1}\n")
     sys.stdout.write("_" * (columns + 2) + "\n")
     sys.stdout.write("\n".join("|" + "".join(["*" if char else " " for char in line]) + "|" for line in board) + "\n")
-    sys.stdout.write("‾" * (columns + 2) + "\n")
+    sys.stdout.write("_" * (columns + 2) + "\n")
