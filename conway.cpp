@@ -15,7 +15,7 @@ int main()
         cur[x][y] = 1;
         printf("Starting cells: ");
     }
-
+    printf("\n");
     for (int i = 0; i < n + 1; i++) {
         cur, next = next, old;
         printf("Generation %d\n", i);

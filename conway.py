@@ -8,7 +8,7 @@ try:
         x, y = map(int, raw.split())
         cur[x][y] = 1
 except:
-    pass
+    print("")
 
 for i in range(n + 1):
     cur, new = new, copy.deepcopy(old)
